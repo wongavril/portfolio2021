@@ -142,27 +142,34 @@ body {
   background-color: #FFFFFF;
   color: #4d4d4d;
   font-family: 'AktivGroteskCorp Regular';
-  font-size: 18px;
+  font-size: 16px;
   line-height: 150%;
   margin-top: 30px;
 }
 
 header {
-  width: 85%;
+  width: 100%;
+  padding-bottom: 30px 0 30px 0;
   height: 85px;
   background-color: #FFFFFF;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
   z-index: 99;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
 }
 
+.headerContent {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
 .menu {
-  width: 200px;
+  width: 50%;
   font-family: 'Karla Medium';
   cursor: pointer;
   display: flex;
@@ -196,6 +203,10 @@ header {
 
 .noteLink:hover {
   opacity: 0.6;
+}
+
+.logoContainer {
+  width: 50%;;
 }
 
 .logo {
@@ -336,6 +347,18 @@ header {
   margin-right: 30px;
 }
 
+.block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.xd {
+  width: 100%;
+}
+
 .projectImageContainer {
   display: flex;
   flex-direction: column;
@@ -376,14 +399,6 @@ header {
 }
 
 @media screen and (max-width: 1150px) {
-  header {
-    width: 85%;
-  }
-
-  .menu {
-    width: 85%;
-  }
-
   #myBtn {
     right: 5px;
   }
