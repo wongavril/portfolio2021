@@ -276,7 +276,7 @@ header {
   font-family: 'Karla ExtraBold';
   font-size: 42px;
   line-height: 150%;
-  padding: 30px 0 30px 0;
+  padding: 30px 0;
 }
 
 .H2 {
@@ -287,7 +287,7 @@ header {
 }
 
 .hero {
-  padding: 120px 0 120px 0;
+  padding: 120px 0;
 }
 
 .indicator {
@@ -352,28 +352,27 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 65%;
 }
 
 .xd {
   width: 100%;
 }
 
-.projectImageContainer {
+.project {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 100%;
 }
 
 .projectImage {
-  width: 90%;
+  width: 55%;
 }
 
 .projectInfo {
   text-align: left;
-  line-height: 130%;
+  line-height: 150%;
   width: 50%;
   padding-left: 30px;
 }
@@ -381,17 +380,8 @@ header {
 .projectName {
   font-family: 'Karla Bold';
   font-size: 32px;
-  font-weight: bold;
-  line-height: 130%;
+  line-height: 150%;
   margin: 15px 0;
-}
-
-.projectSubtitle {
-  font-family: 'Proxima Nova SemiBold';
-}
-
-.projectDescription {
-  padding: 16px 0;
 }
 
 .projectButton {
@@ -407,6 +397,10 @@ header {
     width: 85%;
   }
 
+  .block {
+    width: 100%;
+  }
+
   .project {
     width: 95%;
     flex-direction: column;
@@ -414,9 +408,7 @@ header {
     justify-content: center;
   }
 
-  .projectImageContainer {
-    justify-content: center;
-    align-items: center;
+  .projectImage {
     width: 100%;
   }
 
@@ -432,130 +424,15 @@ header {
     align-items: center;
   }
 
-  .heroSection {
-    width: 75%;
-  }
-
-  .navbarText {
-    width: 95%;
-  }
-
-  .mainContent {
-    width: 85%;
-  }
-
-  .researchContainer {
-    flex-direction: column;
-  }
-
-  .research {
-    margin-bottom: 15px;
-  }
-
-  .expandResearchTitle {
-    width: 300px;
-  }
-
-  .researchBox {
-    flex-direction: column;
-  }
-
-  .appIcon {
-    width: 50%;
-  }
-
-  .personaContainer {
-    flex-direction: column;
-  }
-
-  .persona {
-    width: 100%;
-    flex-direction: column;
-    margin:30px 0 50px 0;
-  }
-
-  .imageContainer {
-    flex-direction: column;
-  }
-
-  .userFlow {
-    width: 100%;
-  }
-
-  .wireframeContainer {
-    flex-direction: column;
-  }
-
-  .imageContainer {
-    width: 100%;
-  }
-
-  .wireframe {
-    width: 100%;
-  }
-
-  .brandingContainer {
-    flex-direction: column;
-  }
-
-  .branding {
-    width: 100%;
-  }
-
-  .logodraft {
-    width: 100%;
-  }
-
-  .finallogo {
-    width: 90%;
-  }
-
-  .palette {
-    width: 85%;
-    margin: 50px 0;
-  }
-
-  .userTesting {
-    width: 95%;
-  }
-
-  .userTestingContainer {
-    width: 100%;
-  }
-
-  .mockupContainer {
-    width: 95%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .mockup {
-    width: 100%;
-  }
-
-  .mockupInfo {
-    width: 100%;
-    flex-direction: column;
-    padding-top: 10px;
-  }
-
   .bio {
-    width: 85%;
-  }
-
-  .bioContent {
     flex-direction: column;
   }
 
-  .bioImage {
-    width: 100%;
-    margin: 0 0 30px 0;
-  }
-
-  .bioWriting {
-    width: 100%;
-
+  .profilePic {
+    width: 95%;
+    margin: 30px 0;
+    max-height: 450px;
+    object-fit: cover;
   }
 
 
