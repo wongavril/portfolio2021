@@ -290,6 +290,10 @@ header {
   padding: 120px 0;
 }
 
+.aboutHero {
+  padding-top: 120px;
+}
+
 .indicator {
   display: flex;
   flex-direction: column;
@@ -352,14 +356,21 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 65%;
+  width: 55%;
 }
 
-.videoBlock {
+.videoBlock15 {
   position: relative;
   overflow: hidden;
-  width: 65%;
-  padding-top: 32.7%;
+  width: 55%;
+  padding-top: 27.68%;
+}
+
+.videoBlock18 {
+  position: relative;
+  overflow: hidden;
+  width: 55%;
+  padding-top: 27.52%;
 }
 
 .xd {
@@ -418,9 +429,14 @@ header {
     width: 100%;
   }
 
-  .videoBlock {
+  .videoBlock15 {
     width: 100%;
     padding-top: 51%;
+  }
+
+  .videoBlock18 {
+    width: 100%;
+    padding-top: 49.5%;
   }
 
   .project {
