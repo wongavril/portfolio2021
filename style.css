@@ -377,6 +377,11 @@ header {
   width: 100%;
 }
 
+.bbc {
+  width: 81%;
+  padding: 25px;
+}
+
 .video {
   position: absolute;
   top: 0;
