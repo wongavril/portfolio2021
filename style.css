@@ -399,8 +399,12 @@ header {
   width: 100%;
 }
 
-.projectImage {
+.projectImageContainer {
   width: 55%;
+}
+
+.projectImage {
+  width: 100%;
 }
 
 .projectInfo {
@@ -451,7 +455,7 @@ header {
     justify-content: center;
   }
 
-  .projectImage {
+  .projectImageContainer {
     width: 100%;
   }
 
