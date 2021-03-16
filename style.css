@@ -363,14 +363,14 @@ header {
   position: relative;
   overflow: hidden;
   width: 55%;
-  padding-top: 27.68%;
+  padding-top: 28.2%;
 }
 
 .videoBlock18 {
   position: relative;
   overflow: hidden;
   width: 55%;
-  padding-top: 27.52%;
+  padding-top: 28%;
 }
 
 .xd {
@@ -428,6 +428,18 @@ header {
 @media screen and (max-width: 1150px) {
   #myBtn {
     right: 5px;
+  }
+
+  .hero {
+    padding: 20px 0;
+  }
+
+  .aboutHero {
+    padding: 20px 0;
+  }
+
+  .indicator {
+    margin: 20px 0;
   }
 
   .content {
