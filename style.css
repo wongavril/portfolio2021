@@ -453,10 +453,7 @@ header {
 }
 
 .nextProjectName:visited {
-  font-family: "Karla Bold";
   text-decoration: none;
-  font-size: 28px;
-  line-height: 150%;
   color: #F49C31;
 }
 
@@ -503,7 +500,7 @@ header {
   }
 
   .projectImageContainer {
-    width: 100%;
+    width: 85%%;
   }
 
   .projectInfo {
@@ -528,7 +525,6 @@ header {
     max-height: 450px;
     object-fit: cover;
   }
-
 
 }
 
