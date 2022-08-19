@@ -458,6 +458,10 @@ header {
 }
 
 @media screen and (max-width: 1150px) {
+
+  H2 {
+    font-size: 18px;
+  }
   #myBtn {
     right: 5px;
   }
