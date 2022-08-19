@@ -364,14 +364,14 @@ header {
   width: 55%;
 }
 
-.videoBlock15 {
+.videoBlock13 {
   position: relative;
   overflow: hidden;
   width: 55%;
   padding-top: 27.9%;
 }
 
-.videoBlock18 {
+.videoBlock16 {
   position: relative;
   overflow: hidden;
   width: 55%;
@@ -459,7 +459,7 @@ header {
 
 @media screen and (max-width: 1150px) {
 
-  H2 {
+  .H2 {
     font-size: 18px;
   }
   #myBtn {
@@ -486,12 +486,12 @@ header {
     width: 100%;
   }
 
-  .videoBlock15 {
+  .videoBlock13 {
     width: 100%;
     padding-top: 51%;
   }
 
-  .videoBlock18 {
+  .videoBlock16 {
     width: 100%;
     padding-top: 51%;
   }
